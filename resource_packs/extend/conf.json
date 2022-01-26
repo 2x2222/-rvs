@@ -1,0 +1,12 @@
+{
+    "id": "extend",
+    "shader": {
+        "extends": "base"
+    },
+    "textures": {
+        "lodestone": {
+            "image": "/textures/lodestone_top.jpg",
+            "tx_cnt": 1
+        }
+    }
+}

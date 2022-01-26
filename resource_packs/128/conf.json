@@ -1,0 +1,12 @@
+{
+    "id": "128",
+    "shader": {
+        "extends": "base"
+    },
+    "textures": {
+        "default": {
+            "image": "/textures/default.png",
+            "tx_cnt": 32
+        }
+    }
+}

@@ -1,0 +1,4923 @@
+[
+    {
+        "id": -1,
+        "name": "DUMMY",
+        "spawnable": false,
+        "sound": "madcraft:block.wood",
+        "material": {
+            "id": "bedrock"
+        },
+        "texture": [
+            9,
+            9
+        ]
+    },
+    {
+        "id": 0,
+        "name": "AIR",
+        "spawnable": false,
+        "passable": 1,
+        "transparent": true,
+        "material": {
+            "id": "air"
+        }
+    },
+    {
+        "id": 1,
+        "name": "BEDROCK",
+        "spawnable": false,
+        "sound": "madcraft:block.stone",
+        "material": {
+            "id": "bedrock"
+        },
+        "texture": [
+            1,
+            1
+        ]
+    },
+    {
+        "id": 2,
+        "name": "DIRT",
+        "sound": "madcraft:block.grass",
+        "tags": [
+            "mask_biome",
+            "dirt"
+        ],
+        "material": {
+            "id": "dirt"
+        },
+        "texture": {
+            "up": [0, 16],
+            "down": [2, 0],
+            "side": [2, 16]
+        }
+    },
+    {
+        "id": 8,
+        "name": "COBBLESTONE",
+        "sound": "madcraft:block.stone",
+        "material": {
+            "id": "cobblestone"
+        },
+        "texture": [
+            0,
+            1
+        ]
+    },
+    {
+        "id": 137,
+        "name": "WOODEN_SHOVEL",
+        "sound": "madcraft:block.shovel",
+        "transparent": true,
+        "max_in_stack": 1,
+        "style": "extruder",
+        "item": {"name": "instrument", "instrument_id": "shovel"},
+        "diagonal": true,
+        "material": {
+            "id": "wood"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [0, 2]
+        },
+        "light": null
+    },
+    {
+        "id": 561,
+        "name": "STONE_SHOVEL",
+        "sound": "madcraft:block.shovel",
+        "transparent": true,
+        "max_in_stack": 1,
+        "style": "extruder",
+        "item": {"name": "instrument", "instrument_id": "shovel"},
+        "diagonal": true,
+        "power": 2,
+        "material": {
+            "id": "stone"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [1, 2]
+        },
+        "light": null
+    },
+    {
+        "id": 562,
+        "name": "IRON_SHOVEL",
+        "sound": "madcraft:block.shovel",
+        "transparent": true,
+        "max_in_stack": 1,
+        "style": "extruder",
+        "item": {"name": "instrument", "instrument_id": "shovel"},
+        "diagonal": true,
+        "power": 3,
+        "material": {
+            "id": "iron"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [2, 2]
+        },
+        "light": null
+    },
+    {
+        "id": 563,
+        "name": "GOLD_SHOVEL",
+        "sound": "madcraft:block.shovel",
+        "transparent": true,
+        "max_in_stack": 1,
+        "style": "extruder",
+        "item": {"name": "instrument", "instrument_id": "shovel"},
+        "diagonal": true,
+        "power": 2,
+        "material": {
+            "id": "gold"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [3, 2]
+        },
+        "light": null
+    },
+    {
+        "id": 564,
+        "name": "DIAMOND_SHOVEL",
+        "sound": "madcraft:block.shovel",
+        "transparent": true,
+        "max_in_stack": 1,
+        "style": "extruder",
+        "item": {"name": "instrument", "instrument_id": "shovel"},
+        "diagonal": true,
+        "power": 5,
+        "material": {
+            "id": "diamond"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [4, 2]
+        },
+        "light": null
+    },
+    {
+        "id": 565,
+        "name": "NETHERITE_SHOVEL",
+        "sound": "madcraft:block.shovel",
+        "transparent": true,
+        "max_in_stack": 1,
+        "style": "extruder",
+        "item": {"name": "instrument", "instrument_id": "shovel"},
+        "diagonal": true,
+        "power": 10,
+        "material": {
+            "id": "netherite"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [5, 2]
+        },
+        "light": null
+    },
+    {
+        "id": 566,
+        "name": "WOODEN_HOE",
+        "sound": "madcraft:block.shovel",
+        "transparent": true,
+        "max_in_stack": 1,
+        "style": "extruder",
+        "item": {"name": "instrument", "instrument_id": "hoe"},
+        "diagonal": true,
+        "material": {
+            "id": "wood"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [0, 3]
+        },
+        "light": null
+    },
+    {
+        "id": 567,
+        "name": "STONE_HOE",
+        "sound": "madcraft:block.shovel",
+        "transparent": true,
+        "max_in_stack": 1,
+        "style": "extruder",
+        "item": {"name": "instrument", "instrument_id": "hoe"},
+        "diagonal": true,
+        "power": 2,
+        "material": {
+            "id": "stone"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [1, 3]
+        },
+        "light": null
+    },
+    {
+        "id": 568,
+        "name": "IRON_HOE",
+        "sound": "madcraft:block.shovel",
+        "transparent": true,
+        "max_in_stack": 1,
+        "style": "extruder",
+        "item": {"name": "instrument", "instrument_id": "hoe"},
+        "diagonal": true,
+        "power": 3,
+        "material": {
+            "id": "iron"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [2, 3]
+        },
+        "light": null
+    },
+    {
+        "id": 569,
+        "name": "GOLD_HOE",
+        "sound": "madcraft:block.shovel",
+        "transparent": true,
+        "max_in_stack": 1,
+        "style": "extruder",
+        "item": {"name": "instrument", "instrument_id": "hoe"},
+        "diagonal": true,
+        "power": 2,
+        "material": {
+            "id": "gold"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [3, 3]
+        },
+        "light": null
+    },
+    {
+        "id": 570,
+        "name": "DIAMOND_HOE",
+        "sound": "madcraft:block.shovel",
+        "transparent": true,
+        "max_in_stack": 1,
+        "style": "extruder",
+        "item": {"name": "instrument", "instrument_id": "hoe"},
+        "diagonal": true,
+        "power": 5,
+        "material": {
+            "id": "diamond"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [4, 3]
+        },
+        "light": null
+    },
+    {
+        "id": 571,
+        "name": "NETHERITE_HOE",
+        "sound": "madcraft:block.shovel",
+        "transparent": true,
+        "max_in_stack": 1,
+        "style": "extruder",
+        "item": {"name": "instrument", "instrument_id": "hoe"},
+        "diagonal": true,
+        "power": 10,
+        "material": {
+            "id": "netherite"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [5, 3]
+        },
+        "light": null
+    },
+    {
+        "id": 132,
+        "name": "WOODEN_AXE",
+        "style": "extruder",
+        "transparent": true,
+        "max_in_stack": 1,
+        "item": {"name": "instrument", "instrument_id": "axe"},
+        "diagonal": true,
+        "material": {
+            "id": "wood"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [0, 4]
+        }
+    },
+    {
+        "id": 557,
+        "name": "STONE_AXE",
+        "style": "extruder",
+        "transparent": true,
+        "max_in_stack": 1,
+        "item": {"name": "instrument", "instrument_id": "axe"},
+        "diagonal": true,
+        "power": 2,
+        "material": {
+            "id": "stone"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [1, 4]
+        }
+    },
+    {
+        "id": 551,
+        "name": "IRON_AXE",
+        "style": "extruder",
+        "transparent": true,
+        "max_in_stack": 1,
+        "item": {"name": "instrument", "instrument_id": "axe"},
+        "diagonal": true,
+        "power": 3,
+        "material": {
+            "id": "iron"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [2, 4]
+        }
+    },
+    {
+        "id": 558,
+        "name": "GOLD_AXE",
+        "style": "extruder",
+        "transparent": true,
+        "max_in_stack": 1,
+        "item": {"name": "instrument", "instrument_id": "axe"},
+        "diagonal": true,
+        "power": 2,
+        "material": {
+            "id": "gold"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [3, 4]
+        }
+    },
+    {
+        "id": 559,
+        "name": "DIAMOND_AXE",
+        "style": "extruder",
+        "transparent": true,
+        "max_in_stack": 1,
+        "item": {"name": "instrument", "instrument_id": "axe"},
+        "diagonal": true,
+        "power": 5,
+        "material": {
+            "id": "diamond"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [4, 4]
+        }
+    },
+    {
+        "id": 560,
+        "name": "NETHERITE_AXE",
+        "style": "extruder",
+        "transparent": true,
+        "max_in_stack": 1,
+        "item": {"name": "instrument", "instrument_id": "axe"},
+        "diagonal": true,
+        "power": 10,
+        "material": {
+            "id": "netherite"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [5, 4]
+        }
+    },
+    {
+        "id": 131,
+        "name": "WOODEN_PICKAXE",
+        "style": "extruder",
+        "transparent": true,
+        "max_in_stack": 1,
+        "item": {"name": "instrument", "instrument_id": "pickaxe"},
+        "diagonal": true,
+        "material": {
+            "id": "wood"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [0, 5]
+        }
+    },
+    {
+        "id": 500,
+        "name": "STONE_PICKAXE",
+        "transparent": true,
+        "max_in_stack": 1,
+        "item": {"name": "instrument", "instrument_id": "pickaxe"},
+        "diagonal": true,
+        "style": "extruder",
+        "power": 2,
+        "material": {
+            "id": "stone"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [1, 5]
+        }
+    },
+    {
+        "id": 553,
+        "name": "IRON_PICKAXE",
+        "transparent": true,
+        "max_in_stack": 1,
+        "item": {"name": "instrument", "instrument_id": "pickaxe"},
+        "diagonal": true,
+        "style": "extruder",
+        "power": 3,
+        "material": {
+            "id": "iron"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [2, 5]
+        }
+    },
+    {
+        "id": 554,
+        "name": "GOLD_PICKAXE",
+        "transparent": true,
+        "max_in_stack": 1,
+        "item": {"name": "instrument", "instrument_id": "pickaxe"},
+        "diagonal": true,
+        "style": "extruder",
+        "power": 2,
+        "material": {
+            "id": "gold"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [3, 5]
+        }
+    },
+    {
+        "id": 555,
+        "name": "DIAMOND_PICKAXE",
+        "transparent": true,
+        "max_in_stack": 1,
+        "item": {"name": "instrument", "instrument_id": "pickaxe"},
+        "diagonal": true,
+        "style": "extruder",
+        "power": 5,
+        "material": {
+            "id": "diamond"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [4, 5]
+        }
+    },
+    {
+        "id": 556,
+        "name": "NETHERITE_PICKAXE",
+        "transparent": true,
+        "max_in_stack": 1,
+        "item": {"name": "instrument", "instrument_id": "pickaxe"},
+        "diagonal": true,
+        "style": "extruder",
+        "power": 10,
+        "material": {
+            "id": "netherite"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [5, 5]
+        }
+    },
+    {
+        "id": 552,
+        "name": "SHEARS",
+        "transparent": true,
+        "max_in_stack": 1,
+        "style": "extruder",
+        "diagonal": true,
+        "item": {"name": "instrument", "instrument_id": "shears"},
+        "material": {
+            "id": "iron"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [0, 0]
+        }
+    },
+    {
+        "id": 467,
+        "name": "COARSE_DIRT",
+        "sound": "madcraft:block.gravel",
+        "texture": [
+            4,
+            3
+        ],
+        "material": {
+            "id": "dirt"
+        }
+    },
+    {
+        "id": 198,
+        "name": "BIRCH_LEAVES",
+        "transparent": true,
+        "sound": "madcraft:block.grass",
+        "texture": [
+            20,
+            18
+        ],
+        "material": {
+            "id": "leaves"
+        },
+        "tags": [
+            "no_drop",
+            "leaves"
+        ]
+    },
+    {
+        "id": 233,
+        "name": "OAK_LEAVES",
+        "transparent": true,
+        "sound": "madcraft:block.grass",
+        "texture": [
+            21,
+            18
+        ],
+        "material": {
+            "id": "leaves"
+        },
+        "tags": [
+            "no_drop",
+            "leaves"
+        ]
+    },
+    {
+        "id": 220,
+        "name": "ACACIA_LEAVES",
+        "transparent": true,
+        "sound": "madcraft:block.grass",
+        "texture": [
+            22,
+            18
+        ],
+        "material": {
+            "id": "leaves"
+        },
+        "tags": [
+            "no_drop",
+            "leaves"
+        ]
+    },
+    {
+        "id": 190,
+        "name": "SPRUCE_LEAVES",
+        "transparent": true,
+        "sound": "madcraft:block.grass",
+        "texture": [
+            23,
+            18
+        ],
+        "material": {
+            "id": "leaves"
+        },
+        "tags": [
+            "no_drop",
+            "leaves"
+        ]
+    },
+    {
+        "id": 526,
+        "name": "DARK_OAK_LEAVES",
+        "transparent": true,
+        "sound": "madcraft:block.grass",
+        "texture": [
+            10,
+            16
+        ],
+        "material": {
+            "id": "leaves"
+        },
+        "tags": [
+            "no_drop",
+            "mask_biome",
+            "leaves"
+        ]
+    },
+    {
+        "id": 527,
+        "name": "JUNGLE_LEAVES",
+        "transparent": true,
+        "sound": "madcraft:block.grass",
+        "texture": [
+            10,
+            17
+        ],
+        "material": {
+            "id": "leaves"
+        },
+        "tags": [
+            "no_drop",
+            "mask_biome",
+            "leaves"
+        ]
+    },
+    {
+        "id": 456,
+        "name": "BIRCH_PLANK",
+        "sound": "madcraft:block.wood",
+        "tags": [
+            "plank"
+        ],
+        "material": {
+            "id": "wood"
+        },
+        "texture": [
+            20,
+            19
+        ]
+    },
+    {
+        "id": 7,
+        "name": "OAK_PLANK",
+        "sound": "madcraft:block.wood",
+        "tags": [
+            "plank"
+        ],
+        "material": {
+            "id": "wood"
+        },
+        "texture": [
+            21,
+            19
+        ]
+    },
+    {
+        "id": 457,
+        "name": "ACACIA_PLANK",
+        "sound": "madcraft:block.wood",
+        "tags": [
+            "plank"
+        ],
+        "material": {
+            "id": "wood"
+        },
+        "texture": [
+            22,
+            19
+        ]
+    },
+    {
+        "id": 460,
+        "name": "SPRUCE_PLANK",
+        "sound": "madcraft:block.wood",
+        "tags": [
+            "plank"
+        ],
+        "material": {
+            "id": "wood"
+        },
+        "texture": [
+            23,
+            19
+        ]
+    },
+    {
+        "id": 528,
+        "name": "DARK_OAK_PLANK",
+        "sound": "madcraft:block.wood",
+        "tags": [
+            "plank"
+        ],
+        "material": {
+            "id": "wood"
+        },
+        "texture": [
+            24,
+            19
+        ]
+    },
+    {
+        "id": 529,
+        "name": "JUNGLE_PLANK",
+        "sound": "madcraft:block.wood",
+        "tags": [
+            "plank"
+        ],
+        "material": {
+            "id": "wood"
+        },
+        "texture": [
+            25,
+            19
+        ]
+    },
+    {
+        "id": 89,
+        "name": "GLOWSTONE",
+        "light_power": {
+            "r": 255,
+            "g": 235,
+            "b": 35,
+            "a": 255
+        },
+        "material": {
+            "id": "stone"
+        },
+        "sound": "madcraft:block.stone",
+        "texture": [
+            9,
+            6
+        ]
+    },
+    {
+        "id": 9,
+        "name": "CONCRETE",
+        "sound": "madcraft:block.stone",
+        "material": {
+            "id": "stone"
+        },
+        "texture": [
+            1,
+            0
+        ]
+    },
+    {
+        "id": 504,
+        "name": "CONCRETE_CYAN",
+        "sound": "madcraft:block.stone",
+        "material": {
+            "id": "stone"
+        },
+        "texture": [
+            3,
+            17
+        ]
+    },
+    {
+        "id": 505,
+        "name": "CONCRETE_YELLOW",
+        "sound": "madcraft:block.stone",
+        "material": {
+            "id": "stone"
+        },
+        "texture": [
+            7,
+            17
+        ]
+    },
+    {
+        "id": 70,
+        "name": "SMOOTH_STONE",
+        "sound": "madcraft:block.stone",
+        "material": {
+            "id": "stone"
+        },
+        "texture": [
+            6,
+            0
+        ]
+    },
+    {
+        "id": 10,
+        "name": "BRICK",
+        "sound": "madcraft:block.stone",
+        "texture": [
+            7,
+            0
+        ],
+        "material": {
+            "id": "stone"
+        }
+    },
+    {
+        "id": 11,
+        "name": "SAND",
+        "gravity": true,
+        "sound": "madcraft:block.sand",
+        "material": {
+            "id": "sand"
+        },
+        "texture": [
+            2,
+            1
+        ]
+    },
+    {
+        "id": 12,
+        "name": "GRAVEL",
+        "gravity": true,
+        "sound": "madcraft:block.gravel",
+        "material": {
+            "id": "sand"
+        },
+        "texture": [
+            3,
+            1
+        ]
+    },
+    {
+        "id": 6,
+        "name": "OAK_SAPLING",
+        "passable": 1,
+        "transparent": true,
+        "style": "planting",
+        "sound": "madcraft:block.grass",
+        "material": {
+            "id": "plant"
+        },
+        "texture": [
+            15,
+            0
+        ]
+    },
+    {
+        "id": 13,
+        "name": "IRON",
+        "texture": [
+            6,
+            1
+        ],
+        "material": {
+            "id": "iron"
+        }
+    },
+    {
+        "id": 69,
+        "name": "GOLD",
+        "sound": "madcraft:block.stone",
+        "texture": [
+            7,
+            1
+        ],
+        "material": {
+            "id": "gold"
+        }
+    },
+    {
+        "id": 14,
+        "name": "GOLD_ORE",
+        "sound": "madcraft:block.stone",
+        "texture": [
+            0,
+            2
+        ],
+        "material": {
+            "id": "gold"
+        }
+    },
+    {
+        "id": 150,
+        "name": "DIAMOND",
+        "sound": "madcraft:block.stone",
+        "material": {
+            "id": "diamond"
+        },
+        "texture": [
+            8,
+            1
+        ]
+    },
+    {
+        "id": 90,
+        "name": "OBSIDIAN",
+        "sound": "madcraft:block.stone",
+        "texture": [
+            5,
+            2
+        ],
+        "material": {
+            "id": "obsidian"
+        }
+    },
+    {
+        "id": 17,
+        "name": "GLASS",
+        "transparent": true,
+        "sound": "madcraft:block.glass",
+        "texture": [
+            1,
+            3
+        ],
+        "material": {
+            "id": "glass"
+        },
+        "tags": [
+            "no_drop_ao"
+        ]
+    },
+    {
+        "id": 201,
+        "name": "SPONGE",
+        "material": {
+            "id": "clay"
+        },
+        "texture": [
+            0,
+            3
+        ],
+        "can_rotate": true
+    },
+    {
+        "id": 15,
+        "name": "IRON_ORE",
+        "sound": "madcraft:block.stone",
+        "texture": [
+            1,
+            2
+        ],
+        "material": {
+            "id": "iron"
+        }
+    },
+    {
+        "id": 16,
+        "name": "COAL_ORE",
+        "sound": "madcraft:block.stone",
+        "texture": [
+            2,
+            2
+        ],
+        "material": {
+            "id": "stone"
+        }
+    },
+    {
+        "id": 21,
+        "name": "LAPIS_LAZULI_ORE",
+        "sound": "madcraft:block.stone",
+        "texture": [
+            0,
+            10
+        ],
+        "material": {
+            "id": "stone"
+        }
+    },
+    {
+        "id": 22,
+        "name": "LAPIS_LAZULI",
+        "texture": [
+            0,
+            9
+        ],
+        "material": {
+            "id": "stone"
+        }
+    },
+    {
+        "id": 24,
+        "name": "SANDSTONE",
+        "sound": "madcraft:block.gravel",
+        "texture": [
+            0,
+            12
+        ],
+        "material": {
+            "id": "stone"
+        }
+    },
+    {
+        "id": 25,
+        "name": "NOTE_BLOCK",
+        "material": {
+            "id": "wood"
+        },
+        "texture": [
+            10,
+            4
+        ]
+    },
+    {
+        "id": 130,
+        "name": "STICK",
+        "style": "extruder",
+        "item": {"name": "stick"},
+        "diagonal": true,
+        "texture": {
+            "id": "tool",
+            "side": [1, 0]
+        },
+        "material": {
+            "id": "wood"
+        }
+    },
+    {
+        "id": 30,
+        "name": "COBWEB",
+        "passable": 0.1,
+        "transparent": true,
+        "style": "planting",
+        "inventory_style": "extruder",
+        "sound": "madcraft:block.stone",
+        "texture": [
+            11,
+            0
+        ],
+        "material": {
+            "id": "stone"
+        }
+    },
+    {
+        "id": 31,
+        "name": "GRASS",
+        "passable": 1,
+        "transparent": true,
+        "style": "planting",
+        "sound": "madcraft:block.grass",
+        "inventory_style": "extruder",
+        "texture": [
+            4,
+            16
+        ],
+        "material": {
+            "id": "plant"
+        },
+        "tags": [
+            "no_drop",
+            "mask_biome"
+        ]
+    },
+    {
+        "id": 106,
+        "name": "VINES",
+        "sound": "madcraft:block.grass",
+        "inventory_style": "extruder",
+        "transparent": true,
+        "width": 0.0625,
+        "texture": {
+            "south": [
+                6,
+                16
+            ],
+            "side": [
+                6,
+                16
+            ]
+        },
+        "align": [
+            "back"
+        ],
+        "tags": [
+            "vines",
+            "mask_biome"
+        ],
+        "material": {
+            "id": "plant"
+        },
+        "style": "ladder",
+        "passable": 0.25,
+        "can_rotate": true
+    },
+    {
+        "id": 32,
+        "name": "DEAD_BUSH",
+        "passable": 1,
+        "transparent": true,
+        "style": "planting",
+        "sound": "madcraft:block.grass",
+        "texture": [
+            7,
+            3
+        ],
+        "material": {
+            "id": "plant"
+        }
+    },
+    {
+        "id": 350,
+        "name": "WOOL_BLACK",
+        "sound": "madcraft:block.cloth",
+        "texture": [
+            0,
+            18
+        ],
+        "material": {
+            "id": "wool"
+        }
+    },
+    {
+        "id": 351,
+        "name": "WOOL_BLUE",
+        "sound": "madcraft:block.cloth",
+        "texture": [
+            1,
+            18
+        ],
+        "material": {
+            "id": "wool"
+        }
+    },
+    {
+        "id": 352,
+        "name": "WOOL_BROWN",
+        "sound": "madcraft:block.cloth",
+        "texture": [
+            2,
+            18
+        ],
+        "material": {
+            "id": "wool"
+        }
+    },
+    {
+        "id": 353,
+        "name": "WOOL_CYAN",
+        "sound": "madcraft:block.cloth",
+        "texture": [
+            3,
+            18
+        ],
+        "material": {
+            "id": "wool"
+        }
+    },
+    {
+        "id": 354,
+        "name": "WOOL_GRAY",
+        "sound": "madcraft:block.cloth",
+        "texture": [
+            4,
+            18
+        ],
+        "material": {
+            "id": "wool"
+        }
+    },
+    {
+        "id": 355,
+        "name": "WOOL_GREEN",
+        "sound": "madcraft:block.cloth",
+        "texture": [
+            5,
+            18
+        ],
+        "material": {
+            "id": "wool"
+        }
+    },
+    {
+        "id": 502,
+        "name": "WOOL_RED",
+        "sound": "madcraft:block.cloth",
+        "texture": [
+            6,
+            18
+        ],
+        "material": {
+            "id": "wool"
+        }
+    },
+    {
+        "id": 506,
+        "name": "WOOL_YELLOW",
+        "sound": "madcraft:block.cloth",
+        "texture": [
+            7,
+            18
+        ],
+        "material": {
+            "id": "wool"
+        }
+    },
+    {
+        "id": 450,
+        "name": "TERRACOTTA_BLACK",
+        "texture": [
+            0,
+            19
+        ],
+        "material": {
+            "id": "terracota"
+        }
+    },
+    {
+        "id": 451,
+        "name": "TERRACOTTA_BLUE",
+        "texture": [
+            1,
+            19
+        ],
+        "material": {
+            "id": "terracota"
+        }
+    },
+    {
+        "id": 452,
+        "name": "TERRACOTTA_BROWN",
+        "texture": [
+            2,
+            19
+        ],
+        "material": {
+            "id": "terracota"
+        }
+    },
+    {
+        "id": 453,
+        "name": "TERRACOTTA_CYAN",
+        "texture": [
+            3,
+            19
+        ],
+        "material": {
+            "id": "terracota"
+        }
+    },
+    {
+        "id": 454,
+        "name": "TERRACOTTA_GRAY",
+        "texture": [
+            4,
+            19
+        ],
+        "material": {
+            "id": "terracota"
+        }
+    },
+    {
+        "id": 455,
+        "name": "TERRACOTTA_GREEN",
+        "texture": [
+            5,
+            19
+        ],
+        "material": {
+            "id": "terracota"
+        }
+    },
+    {
+        "id": 503,
+        "name": "TERRACOTTA_RED",
+        "texture": [
+            6,
+            19
+        ],
+        "material": {
+            "id": "terracota"
+        }
+    },
+    {
+        "id": 507,
+        "name": "TERRACOTTA_YELLOW",
+        "texture": [
+            7,
+            19
+        ],
+        "material": {
+            "id": "terracota"
+        }
+    },
+    {
+        "id": 36,
+        "name": "DANDELION",
+        "passable": 1,
+        "transparent": true,
+        "style": "planting",
+        "sound": "madcraft:block.grass",
+        "texture": [
+            13,
+            0
+        ],
+        "material": {
+            "id": "plant"
+        }
+    },
+    {
+        "id": 38,
+        "name": "TULIP",
+        "passable": 1,
+        "transparent": true,
+        "style": "planting",
+        "sound": "madcraft:block.grass",
+        "texture": [
+            12,
+            0
+        ],
+        "material": {
+            "id": "plant"
+        }
+    },
+    {
+        "id": 509,
+        "name": "FLOWER_ALLIUM",
+        "passable": 1,
+        "transparent": true,
+        "style": "planting",
+        "inventory_style": "extruder",
+        "sound": "madcraft:block.grass",
+        "texture": [
+            0,
+            22
+        ],
+        "material": {
+            "id": "plant"
+        }
+    },
+    {
+        "id": 510,
+        "name": "FLOWER_BLUE_ORCHID",
+        "passable": 1,
+        "transparent": true,
+        "style": "planting",
+        "inventory_style": "extruder",
+        "sound": "madcraft:block.grass",
+        "texture": [
+            1,
+            22
+        ],
+        "material": {
+            "id": "plant"
+        }
+    },
+    {
+        "id": 511,
+        "name": "FLOWER_OXEYE_DAISY",
+        "passable": 1,
+        "transparent": true,
+        "style": "planting",
+        "inventory_style": "extruder",
+        "sound": "madcraft:block.grass",
+        "texture": [
+            2,
+            22
+        ],
+        "material": {
+            "id": "plant"
+        }
+    },
+    {
+        "id": 512,
+        "name": "FLOWER_LILY_OF_THE_VALLEY",
+        "passable": 1,
+        "transparent": true,
+        "style": "planting",
+        "inventory_style": "extruder",
+        "sound": "madcraft:block.grass",
+        "texture": [
+            3,
+            22
+        ],
+        "material": {
+            "id": "plant"
+        }
+    },
+    {
+        "id": 513,
+        "name": "FLOWER_CORNFLOWER",
+        "passable": 1,
+        "transparent": true,
+        "style": "planting",
+        "inventory_style": "extruder",
+        "sound": "madcraft:block.grass",
+        "texture": [
+            4,
+            22
+        ],
+        "material": {
+            "id": "plant"
+        }
+    },
+    {
+        "id": 514,
+        "name": "FLOWER_PEONY",
+        "passable": 1,
+        "transparent": true,
+        "style": "planting",
+        "inventory_style": "extruder",
+        "sound": "madcraft:block.grass",
+        "texture": [
+            5,
+            22
+        ],
+        "material": {
+            "id": "plant"
+        },
+        "next_part": {
+            "offset_pos": {"x": 0, "y": 1, "z": 0},
+            "id": 515
+        }
+    },
+    {
+        "id": 515,
+        "name": "FLOWER_PEONY_TOP",
+        "spawnable": false,
+        "passable": 1,
+        "transparent": true,
+        "style": "planting",
+        "sound": "madcraft:block.grass",
+        "texture": [
+            6,
+            22
+        ],
+        "material": {
+            "id": "plant"
+        },
+        "previous_part": {
+            "offset_pos": {"x": 0, "y": -1, "z": 0},
+            "id": 514
+        },
+        "tags": [
+            "no_drop"
+        ]
+    },
+    {
+        "id": 516,
+        "name": "FLOWER_LILAC",
+        "passable": 1,
+        "transparent": true,
+        "style": "planting",
+        "inventory_style": "extruder",
+        "sound": "madcraft:block.grass",
+        "halfs": {"up": 517},
+        "texture": [
+            7,
+            22
+        ],
+        "material": {
+            "id": "plant"
+        },
+        "next_part": {
+            "offset_pos": {"x": 0, "y": 1, "z": 0},
+            "id": 517
+        }
+    },
+    {
+        "id": 517,
+        "name": "FLOWER_LILAC_TOP",
+        "spawnable": false,
+        "passable": 1,
+        "transparent": true,
+        "style": "planting",
+        "sound": "madcraft:block.grass",
+        "texture": [
+            8,
+            22
+        ],
+        "material": {
+            "id": "plant"
+        },
+        "previous_part": {
+            "offset_pos": {"x": 0, "y": -1, "z": 0},
+            "id": 516
+        },
+        "tags": [
+            "no_drop"
+        ]
+    },
+    {
+        "id": 39,
+        "name": "BROWN_MUSHROOM",
+        "transparent": true,
+        "passable": 1,
+        "style": "planting",
+        "sound": "madcraft:block.grass",
+        "texture": [
+            13,
+            1
+        ],
+        "material": {
+            "id": "plant"
+        }
+    },
+    {
+        "id": 40,
+        "name": "RED_MUSHROOM",
+        "transparent": true,
+        "passable": 1,
+        "style": "planting",
+        "sound": "madcraft:block.grass",
+        "texture": [
+            12,
+            1
+        ],
+        "material": {
+            "id": "plant"
+        }
+    },
+    {
+        "id": 43,
+        "name": "DOUBLE_SLAB",
+        "sound": "madcraft:block.stone",
+        "texture": {
+            "side": [5, 0],
+            "up": [6, 0]
+        },
+        "material": {
+            "id": "stone"
+        }
+    },
+    {
+        "id": 44,
+        "name": "SMOOTH_STONE_SLAB",
+        "transparent": true,
+        "sound": "madcraft:block.stone",
+        "material": {
+            "id": "stone"
+        },
+        "height": 0.5,
+        "layering": {
+            "height": 0.5,
+            "slab": true,
+            "full_block_name": "SMOOTH_STONE"
+        },
+        "texture": [
+            6,
+            0
+        ]
+    },
+    {
+        "id": 48,
+        "name": "MOSS_STONE",
+        "sound": "madcraft:block.stone",
+        "material": {
+            "id": "stone"
+        },
+        "texture": [
+            4,
+            2
+        ]
+    },
+    {
+        "id": 520,
+        "name": "MOSS_COBBLESTONE_STAIRS",
+        "style": "stairs",
+        "sound": "madcraft:block.stone",
+        "tags": [
+            "stairs"
+        ],
+        "material": {
+            "id": "stone"
+        },
+        "texture": [
+            4,
+            2
+        ],
+        "can_rotate": true
+    },
+    {
+        "id": 56,
+        "name": "DIAMOND_ORE",
+        "sound": "madcraft:block.stone",
+        "texture": [
+            2,
+            3
+        ],
+        "material": {
+            "id": "diamond"
+        }
+    },
+    {
+        "id": 59,
+        "name": "WHEAT",
+        "passable": 1,
+        "transparent": true,
+        "style": "planting",
+        "texture": [
+            15,
+            5
+        ],
+        "material": {
+            "id": "plant"
+        },
+        "spawnable": false
+    },
+    {
+        "id": 60,
+        "name": "FARMLAND",
+        "transparent": true,
+        "height": 0.9375,
+        "texture": {
+            "up": [7, 5],
+            "side": [2, 0]
+        },
+        "material": {
+            "id": "dirt"
+        }
+    },
+    {
+        "id": 67,
+        "name": "COBBLESTONE_STAIRS",
+        "style": "stairs",
+        "sound": "madcraft:block.stone",
+        "tags": [
+            "stairs"
+        ],
+        "material": {
+            "id": "cobblestone"
+        },
+        "texture": [
+            0,
+            1
+        ],
+        "can_rotate": true,
+        "transparent": true
+    },
+    {
+        "id": 72,
+        "name": "OAK_PLATE",
+        "sound": "madcraft:block.wood",
+        "texture": [
+            21,
+            19
+        ],
+        "material": {
+            "id": "wood"
+        }
+    },
+    {
+        "id": 73,
+        "name": "REDSTONE_ORE",
+        "sound": "madcraft:block.stone",
+        "texture": [
+            3,
+            3
+        ],
+        "material": {
+            "id": "stone"
+        }
+    },
+    {
+        "id": 75,
+        "name": "REDSTONE_TORCH_ON",
+        "spawnable": false,
+        "passable": 1,
+        "width": 0.125,
+        "height": 0.6875,
+        "transparent": true,
+        "style": "torch",
+        "can_rotate": true,
+        "material": {
+            "id": "wood"
+        },
+        "light_power": {
+            "r": 253,
+            "g": 200,
+            "b": 131,
+            "a": 128
+        },
+        "texture": {
+            "up": [
+                0,
+                6
+            ],
+            "down": [
+                0,
+                7
+            ],
+            "side": [
+                3,
+                6
+            ]
+        }
+    },
+    {
+        "id": 76,
+        "name": "REDSTONE_TORCH_OFF",
+        "spawnable": false,
+        "passable": 1,
+        "width": 0.125,
+        "height": 0.6875,
+        "transparent": true,
+        "style": "torch",
+        "can_rotate": true,
+        "material": {
+            "id": "wood"
+        },
+        "texture": {
+            "up": [0, 6],
+            "down": [0, 7],
+            "side": [3, 7]
+        }
+    },
+    {
+        "id": 79,
+        "name": "ICE",
+        "material": {
+            "id": "ice"
+        },
+        "texture": [3, 4]
+    },
+    {
+        "id": 469,
+        "name": "SNOW",
+        "height": 0.125,
+        "transparent": true,
+        "sound": "madcraft:block.snow",
+        "texture": [2, 4],
+        "material": {
+            "id": "snow"
+        },
+        "layering": {
+            "height": 0.125,
+            "full_block_name": "SNOW_BLOCK"
+        },
+        "tags": [
+            "layering",
+            "no_drop_ao"
+        ]
+    },
+    {
+        "id": 80,
+        "name": "SNOW_BLOCK",
+        "sound": "madcraft:block.snow",
+        "material": {
+            "id": "snow"
+        },
+        "texture": [2, 4]
+    },
+    {
+        "id": 82,
+        "name": "CLAY",
+        "material": {
+            "id": "clay"
+        },
+        "texture": [8, 4]
+    },
+    {
+        "id": 189,
+        "name": "BIRCH_FENCE",
+        "transparent": true,
+        "style": "fence",
+        "sound": "madcraft:block.wood",
+        "material": {
+            "id": "wood"
+        },
+        "texture": [
+            20,
+            19
+        ]
+    },
+    {
+        "id": 85,
+        "name": "OAK_FENCE",
+        "transparent": true,
+        "style": "fence",
+        "sound": "madcraft:block.wood",
+        "material": {
+            "id": "wood"
+        },
+        "texture": [
+            21,
+            19
+        ]
+    },
+    {
+        "id": 188,
+        "name": "ACACIA_FENCE",
+        "transparent": true,
+        "style": "fence",
+        "sound": "madcraft:block.wood",
+        "material": {
+            "id": "wood"
+        },
+        "texture": [
+            22,
+            19
+        ]
+    },
+    {
+        "id": 191,
+        "name": "SPRUCE_FENCE",
+        "transparent": true,
+        "style": "fence",
+        "sound": "madcraft:block.wood",
+        "material": {
+            "id": "wood"
+        },
+        "texture": [
+            23,
+            19
+        ]
+    },
+    {
+        "id": 536,
+        "name": "DARK_OAK_FENCE",
+        "transparent": true,
+        "style": "fence",
+        "sound": "madcraft:block.wood",
+        "material": {
+            "id": "wood"
+        },
+        "texture": [
+            24,
+            19
+        ]
+    },
+    {
+        "id": 537,
+        "name": "JUNGLE_FENCE",
+        "transparent": true,
+        "style": "fence",
+        "sound": "madcraft:block.wood",
+        "material": {
+            "id": "wood"
+        },
+        "texture": [
+            25,
+            19
+        ]
+    },
+    {
+        "id": 113,
+        "name": "NETHER_BRICK_FENCE",
+        "sound": "madcraft:block.wood",
+        "transparent": true,
+        "style": "fence",
+        "material": {
+            "id": "wood"
+        },
+        "texture": [
+            8,
+            13
+        ]
+    },
+    {
+        "id": 87,
+        "name": "NETHERITE",
+        "material": {
+            "id": "netherite"
+        },
+        "texture": [
+            7,
+            6
+        ]
+    },
+    {
+        "id": 88,
+        "name": "SOUL_SAND",
+        "gravity": true,
+        "material": {
+            "id": "sand"
+        },
+        "texture": [
+            8,
+            6
+        ]
+    },
+    {
+        "id": 95,
+        "name": "STAINED_GLASS",
+        "deprecated": true,
+        "transparent": true,
+        "material": {
+            "id": "glass"
+        },
+        "texture": [
+            1,
+            3
+        ],
+        "can_rotate": true,
+        "spawnable": false
+    },
+    {
+        "id": 98,
+        "name": "STONE_BRICK",
+        "sound": "madcraft:block.stone",
+        "material": {
+            "id": "stone"
+        },
+        "texture": [
+            6,
+            3
+        ]
+    },
+    {
+        "id": 99,
+        "name": "BROWN_MUSHROOM_BLOCK",
+        "material": {
+            "id": "dirt"
+        },
+        "texture": [
+            14,
+            7
+        ]
+    },
+    {
+        "id": 100,
+        "name": "RED_MUSHROOM_BLOCK",
+        "material": {
+            "id": "dirt"
+        },
+        "texture": [
+            13,
+            7
+        ]
+    },
+    {
+        "id": 102,
+        "name": "GLASS_PANE",
+        "transparent": true,
+        "style": "thin",
+        "inventory_style": "extruder",
+        "sound": "madcraft:block.glass",
+        "material": {
+            "id": "glass"
+        },
+        "tags": [
+            "glass",
+            "no_drop_ao"
+        ],
+        "texture": [
+            1,
+            3
+        ],
+        "can_rotate": true
+    },
+    {
+        "id": 508,
+        "name": "CLOUD",
+        "transparent": true,
+        "passable": 1,
+        "selflit": true,
+        "sound": "madcraft:block.wood",
+        "material": {
+            "id": "air"
+        },
+        "tags": [
+            "alpha"
+        ],
+        "texture": [
+            22,
+            31
+        ],
+        "spawnable": false
+    },
+    {
+        "id": 470,
+        "name": "BLUE_STAINED_GLASS",
+        "transparent": true,
+        "style": "pane",
+        "inventory_style": "extruder",
+        "sound": "madcraft:block.glass",
+        "material": {
+            "id": "glass"
+        },
+        "texture": [
+            1,
+            20
+        ],
+        "can_rotate": true
+    },
+    {
+        "id": 471,
+        "name": "BLACK_STAINED_GLASS",
+        "transparent": true,
+        "style": "pane",
+        "inventory_style": "extruder",
+        "sound": "madcraft:block.glass",
+        "material": {
+            "id": "glass"
+        },
+        "texture": [
+            0,
+            20
+        ],
+        "can_rotate": true
+    },
+    {
+        "id": 472,
+        "name": "PINK_STAINED_GLASS",
+        "transparent": true,
+        "style": "pane",
+        "inventory_style": "extruder",
+        "sound": "madcraft:block.glass",
+        "material": {
+            "id": "glass"
+        },
+        "texture": [
+            2,
+            20
+        ],
+        "can_rotate": true
+    },
+    {
+        "id": 473,
+        "name": "RED_STAINED_GLASS",
+        "transparent": true,
+        "style": "pane",
+        "inventory_style": "extruder",
+        "sound": "madcraft:block.glass",
+        "material": {
+            "id": "glass"
+        },
+        "texture": [
+            3,
+            20
+        ],
+        "can_rotate": true
+    },
+    {
+        "id": 474,
+        "name": "WHITE_STAINED_GLASS",
+        "transparent": true,
+        "style": "pane",
+        "inventory_style": "extruder",
+        "sound": "madcraft:block.glass",
+        "material": {
+            "id": "glass"
+        },
+        "texture": [
+            4,
+            20
+        ],
+        "can_rotate": true
+    },
+    {
+        "id": 475,
+        "name": "YELLOW_STAINED_GLASS",
+        "transparent": true,
+        "style": "pane",
+        "inventory_style": "extruder",
+        "sound": "madcraft:block.glass",
+        "material": {
+            "id": "glass"
+        },
+        "texture": [
+            5,
+            20
+        ],
+        "can_rotate": true
+    },
+    {
+        "id": 476,
+        "name": "GREEN_STAINED_GLASS",
+        "transparent": true,
+        "style": "pane",
+        "inventory_style": "extruder",
+        "sound": "madcraft:block.glass",
+        "material": {
+            "id": "glass"
+        },
+        "texture": [
+            6,
+            20
+        ],
+        "can_rotate": true
+    },
+    {
+        "id": 104,
+        "name": "PUMPKIN_STEM",
+        "passable": 1,
+        "transparent": true,
+        "style": "planting",
+        "material": {
+            "id": "plant"
+        },
+        "texture": [
+            15,
+            6
+        ],
+        "spawnable": false
+    },
+    {
+        "id": 105,
+        "name": "MELON_STEM",
+        "passable": 1,
+        "transparent": true,
+        "style": "planting",
+        "material": {
+            "id": "plant"
+        },
+        "texture": [
+            15,
+            6
+        ],
+        "spawnable": false
+    },
+    {
+        "id": 108,
+        "name": "BRICK_STAIRS",
+        "style": "stairs",
+        "sound": "madcraft:block.stone",
+        "material": {
+            "id": "stone"
+        },
+        "tags": [
+            "stairs"
+        ],
+        "texture": [
+            7,
+            0
+        ],
+        "can_rotate": true,
+        "transparent": true
+    },
+    {
+        "id": 109,
+        "name": "STONE_STAIRS",
+        "style": "stairs",
+        "sound": "madcraft:block.stone",
+        "material": {
+            "id": "stone"
+        },
+        "tags": [
+            "stairs"
+        ],
+        "texture": [
+            1,
+            0
+        ],
+        "can_rotate": true,
+        "transparent": true
+    },
+    {
+        "id": 112,
+        "name": "NETHER_BRICK",
+        "sound": "madcraft:block.stone",
+        "deprecated": true,
+        "spawnable": false,
+        "material": {
+            "id": "netherite"
+        },
+        "texture": [
+            7,
+            6
+        ]
+    },
+    {
+        "id": 114,
+        "name": "NETHER_STAIRS",
+        "sound": "madcraft:block.stone",
+        "style": "stairs",
+        "material": {
+            "id": "netherite"
+        },
+        "tags": [
+            "stairs"
+        ],
+        "texture": [
+            0,
+            14
+        ],
+        "can_rotate": true,
+        "transparent": true
+    },
+    {
+        "id": 117,
+        "name": "BREWING_STAND",
+        "inventory_style": "extruder",
+        "transparent": true,
+        "style": "sign",
+        "material": {
+            "id": "stone"
+        },
+        "texture": [
+            13,
+            9
+        ]
+    },
+    {
+        "id": 121,
+        "name": "END_STONE",
+        "texture": [
+            15,
+            10
+        ],
+        "material": {
+            "id": "stone"
+        }
+    },
+    {
+        "id": 125,
+        "name": "DOUBLE_SLAB2",
+        "material": {
+            "id": "stone"
+        },
+        "texture": [
+            5,
+            0
+        ]
+    },
+    {
+        "id": 501,
+        "name": "BRICK_SLAB",
+        "transparent": true,
+        "sound": "madcraft:block.stone",
+        "height": 0.5,
+        "layering": {
+            "height": 0.5,
+            "slab": true,
+            "full_block_name": "BRICK"
+        },
+        "material": {
+            "id": "stone"
+        },
+        "texture": [
+            7,
+            0
+        ]
+    },
+    {
+        "id": 126,
+        "name": "OAK_SLAB",
+        "transparent": true,
+        "sound": "madcraft:block.wood",
+        "height": 0.5,
+        "layering": {
+            "height": 0.5,
+            "slab": true,
+            "full_block_name": "OAK_PLANK"
+        },
+        "material": {
+            "id": "wood"
+        },
+        "texture": [
+            21,
+            19
+        ]
+    },
+    {
+        "id": 538,
+        "name": "DARK_OAK_SLAB",
+        "transparent": true,
+        "sound": "madcraft:block.wood",
+        "height": 0.5,
+        "layering": {
+            "height": 0.5,
+            "slab": true,
+            "full_block_name": "DARK_OAK_PLANK"
+        },
+        "material": {
+            "id": "wood"
+        },
+        "texture": [
+            24,
+            19
+        ]
+    },
+    {
+        "id": 539,
+        "name": "JUNGLE_SLAB",
+        "transparent": true,
+        "sound": "madcraft:block.wood",
+        "height": 0.5,
+        "layering": {
+            "height": 0.5,
+            "slab": true,
+            "full_block_name": "JUNGLE_PLANK"
+        },
+        "material": {
+            "id": "wood"
+        },
+        "texture": [
+            25,
+            19
+        ]
+    },
+    {
+        "id": 458,
+        "name": "BIRCH_SLAB",
+        "transparent": true,
+        "sound": "madcraft:block.wood",
+        "height": 0.5,
+        "layering": {
+            "height": 0.5,
+            "slab": true,
+            "full_block_name": "BIRCH_PLANK"
+        },
+        "material": {
+            "id": "wood"
+        },
+        "texture": [
+            20,
+            19
+        ]
+    },
+    {
+        "id": 459,
+        "name": "ACACIA_SLAB",
+        "transparent": true,
+        "sound": "madcraft:block.wood",
+        "height": 0.5,
+        "layering": {
+            "height": 0.5,
+            "slab": true,
+            "full_block_name": "ACACIA_PLANK"
+        },
+        "material": {
+            "id": "wood"
+        },
+        "texture": [
+            22,
+            19
+        ]
+    },
+    {
+        "id": 461,
+        "name": "SPRUCE_SLAB",
+        "transparent": true,
+        "sound": "madcraft:block.wood",
+        "height": 0.5,
+        "layering": {
+            "height": 0.5,
+            "slab": true,
+            "full_block_name": "SPRUCE_PLANK"
+        },
+        "material": {
+            "id": "wood"
+        },
+        "texture": [
+            23,
+            19
+        ]
+    },
+    {
+        "id": 128,
+        "name": "SANDSTONE_STAIRS",
+        "sound": "madcraft:block.stone",
+        "style": "stairs",
+        "material": {
+            "id": "stone"
+        },
+        "tags": [
+            "stairs"
+        ],
+        "texture": [
+            0,
+            12
+        ],
+        "can_rotate": true,
+        "transparent": true
+    },
+    {
+        "id": 129,
+        "name": "EMERALD_ORE",
+        "deprecated": true,
+        "spawnable": false,
+        "material": {
+            "id": "stone"
+        },
+        "texture": [
+            9,
+            11
+        ]
+    },
+    {
+        "id": 135,
+        "name": "BIRCH_STAIRS",
+        "style": "stairs",
+        "sound": "madcraft:block.wood",
+        "material": {
+            "id": "wood"
+        },
+        "tags": [
+            "stairs"
+        ],
+        "texture": [
+            20,
+            19
+        ],
+        "can_rotate": true,
+        "transparent": true
+    },
+    {
+        "id": 53,
+        "name": "OAK_STAIRS",
+        "style": "stairs",
+        "sound": "madcraft:block.wood",
+        "material": {
+            "id": "wood"
+        },
+        "tags": [
+            "stairs"
+        ],
+        "texture": [
+            21,
+            19
+        ],
+        "can_rotate": true,
+        "transparent": true
+    },
+    {
+        "id": 163,
+        "name": "ACACIA_STAIRS",
+        "style": "stairs",
+        "sound": "madcraft:block.wood",
+        "material": {
+            "id": "wood"
+        },
+        "tags": [
+            "stairs"
+        ],
+        "texture": [
+            22,
+            19
+        ],
+        "can_rotate": true,
+        "transparent": true
+    },
+    {
+        "id": 134,
+        "name": "SPRUCE_STAIRS",
+        "style": "stairs",
+        "sound": "madcraft:block.wood",
+        "material": {
+            "id": "wood"
+        },
+        "tags": [
+            "stairs"
+        ],
+        "texture": [
+            23,
+            19
+        ],
+        "can_rotate": true,
+        "transparent": true
+    },
+    {
+        "id": 534,
+        "name": "DARK_OAK_STAIRS",
+        "style": "stairs",
+        "sound": "madcraft:block.wood",
+        "material": {
+            "id": "wood"
+        },
+        "tags": [
+            "stairs"
+        ],
+        "texture": [
+            24,
+            19
+        ],
+        "can_rotate": true,
+        "transparent": true
+    },
+    {
+        "id": 535,
+        "name": "JUNGLE_STAIRS",
+        "style": "stairs",
+        "sound": "madcraft:block.wood",
+        "material": {
+            "id": "wood"
+        },
+        "tags": [
+            "stairs"
+        ],
+        "texture": [
+            25,
+            19
+        ],
+        "can_rotate": true,
+        "transparent": true
+    },
+    {
+        "id": 136,
+        "name": "DEPRECATED_1",
+        "deprecated": true,
+        "spawnable": false,
+        "material": {
+            "id": "bedrock"
+        },
+        "texture": [
+            0,
+            0
+        ]
+    },
+    {
+        "id": 141,
+        "name": "CARROTS",
+        "spawnable": false,
+        "passable": 1,
+        "transparent": true,
+        "style": "planting",
+        "material": {
+            "id": "plant"
+        },
+        "texture": [
+            11,
+            5
+        ]
+    },
+    {
+        "id": 142,
+        "name": "POTATOS",
+        "spawnable": false,
+        "passable": 1,
+        "transparent": true,
+        "style": "planting",
+        "material": {
+            "id": "plant"
+        },
+        "texture": [
+            11,
+            5
+        ]
+    },
+    {
+        "id": 155,
+        "name": "QUARTZ",
+        "sound": "madcraft:block.stone",
+        "material": {
+            "id": "quartz"
+        },
+        "texture": [
+            10,
+            14
+        ]
+    },
+    {
+        "id": 156,
+        "name": "QUARTZ_STAIRS",
+        "sound": "madcraft:block.stone",
+        "style": "stairs",
+        "material": {
+            "id": "quartz"
+        },
+        "tags": [
+            "stairs"
+        ],
+        "texture": [
+            10,
+            14
+        ],
+        "can_rotate": true,
+        "transparent": true
+    },
+    {
+        "id": 161,
+        "name": "LEAVES2",
+        "transparent": true,
+        "material": {
+            "id": "leaves"
+        },
+        "texture": [
+            5,
+            3
+        ]
+    },
+    {
+        "id": 173,
+        "name": "COAL",
+        "item": {"name": "coal"},
+        "style": "extruder",
+        "material": {
+            "id": "wood"
+        },
+        "texture": [
+            0,
+            31
+        ]
+    },
+    {
+        "id": 174,
+        "name": "ICE2",
+        "deprecated": true,
+        "spawnable": false,
+        "material": {
+            "id": "ice"
+        },
+        "texture": [
+            3,
+            4
+        ]
+    },
+    {
+        "id": 212,
+        "name": "ICE3",
+        "deprecated": true,
+        "spawnable": false,
+        "material": {
+            "id": "ice"
+        },
+        "texture": [
+            3,
+            4
+        ]
+    },
+    {
+        "id": 199,
+        "name": "TEST",
+        "sound": "madcraft:block.wood",
+        "uvlock": false,
+        "material": {
+            "id": "wood"
+        },
+        "texture": {
+            "up": [26, 31, 2],
+            "down": [27, 31],
+            "south": [28, 31],
+            "east": [29, 31],
+            "north": [30, 31],
+            "west": [31, 31]
+        },
+        "can_rotate": true
+    },
+    {
+        "id": 58,
+        "name": "CRAFTING_TABLE",
+        "sound": "madcraft:block.wood",
+        "material": {
+            "id": "wood"
+        },
+        "texture": {
+            "up": [
+                11,
+                2
+            ],
+            "down": [
+                21,
+                19
+            ],
+            "north": [
+                12,
+                3
+            ],
+            "south": [
+                12,
+                3
+            ],
+            "east": [
+                11,
+                3
+            ],
+            "west": [
+                11,
+                3
+            ]
+        },
+        "can_rotate": true
+    },
+    {
+        "id": 466,
+        "name": "PODZOL",
+        "sound": "madcraft:block.gravel",
+        "material": {
+            "id": "dirt"
+        },
+        "texture": {
+            "up": [
+                4,
+                0
+            ],
+            "down": [
+                2,
+                0
+            ],
+            "side": [
+                4,
+                1
+            ]
+        }
+    },
+    {
+        "id": 468,
+        "name": "DIRT_PATH",
+        "transparent": true,
+        "height": 0.9375,
+        "sound": "madcraft:block.grass",
+        "material": {
+            "id": "dirt"
+        },
+        "tags": [
+            "dirt"
+        ],
+        "texture": {
+            "up": [4, 5],
+            "down": [2, 0],
+            "side": [4, 6]
+        }
+    },
+    {
+        "id": 145,
+        "name": "SNOW_DIRT",
+        "sound": "madcraft:block.snow",
+        "material": {
+            "id": "dirt"
+        },
+        "texture": {
+            "up": [
+                2,
+                4
+            ],
+            "down": [
+                2,
+                0
+            ],
+            "side": [
+                4,
+                4
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "name": "TNT",
+        "sound": "madcraft:block.grass",
+        "material": {
+            "id": "stone"
+        },
+        "texture": {
+            "up": [
+                9,
+                0
+            ],
+            "down": [
+                10,
+                0
+            ],
+            "side": [
+                8,
+                0
+            ]
+        }
+    },
+    {
+        "id": 162,
+        "name": "BIRCH_TRUNK",
+        "sound": "madcraft:block.wood",
+        "material": {
+            "id": "wood"
+        },
+        "texture": {
+            "up": [
+                20,
+                17
+            ],
+            "down": [
+                20,
+                17
+            ],
+            "side": [
+                20,
+                16
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "name": "OAK_TRUNK",
+        "sound": "madcraft:block.wood",
+        "material": {
+            "id": "wood"
+        },
+        "texture": {
+            "up": [
+                21,
+                17
+            ],
+            "down": [
+                21,
+                17
+            ],
+            "side": [
+                21,
+                16
+            ]
+        }
+    },
+    {
+        "id": 165,
+        "name": "ACACIA_TRUNK",
+        "sound": "madcraft:block.wood",
+        "material": {
+            "id": "wood"
+        },
+        "texture": {
+            "up": [
+                22,
+                17
+            ],
+            "down": [
+                22,
+                17
+            ],
+            "side": [
+                22,
+                16
+            ]
+        }
+    },
+    {
+        "id": 138,
+        "name": "SPRUCE_TRUNK",
+        "sound": "madcraft:block.wood",
+        "material": {
+            "id": "wood"
+        },
+        "texture": {
+            "up": [
+                23,
+                17
+            ],
+            "down": [
+                23,
+                17
+            ],
+            "side": [
+                23,
+                16
+            ]
+        }
+    },
+    {
+        "id": 530,
+        "name": "DARK_OAK_TRUNK",
+        "sound": "madcraft:block.wood",
+        "material": {
+            "id": "wood"
+        },
+        "texture": {
+            "up": [
+                24,
+                17
+            ],
+            "down": [
+                24,
+                17
+            ],
+            "side": [
+                24,
+                16
+            ]
+        }
+    },
+    {
+        "id": 531,
+        "name": "JUNGLE_TRUNK",
+        "sound": "madcraft:block.wood",
+        "material": {
+            "id": "wood"
+        },
+        "texture": {
+            "up": [
+                25,
+                17
+            ],
+            "down": [
+                25,
+                17
+            ],
+            "side": [
+                25,
+                16
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "name": "BOOKCASE",
+        "sound": "madcraft:block.wood",
+        "material": {
+            "id": "wood"
+        },
+        "texture": {
+            "up": [
+                21,
+                19
+            ],
+            "down": [
+                21,
+                19
+            ],
+            "side": [
+                3,
+                2
+            ]
+        }
+    },
+    {
+        "id": 23,
+        "name": "DISPENSER",
+        "material": {
+            "id": "stone"
+        },
+        "texture": {
+            "up": [
+                14,
+                3
+            ],
+            "down": [
+                14,
+                3
+            ],
+            "north": [
+                14,
+                2
+            ],
+            "side": [
+                13,
+                2
+            ]
+        }
+    },
+    {
+        "id": 29,
+        "name": "STICKY_PISTON",
+        "spawnable": false,
+        "material": {
+            "id": "stone"
+        },
+        "texture": {
+            "up": [
+                10,
+                6
+            ],
+            "down": [
+                13,
+                6
+            ],
+            "side": [
+                12,
+                6
+            ]
+        }
+    },
+    {
+        "id": 33,
+        "name": "PISTON",
+        "material": {
+            "id": "stone"
+        },
+        "texture": {
+            "up": [
+                11,
+                6
+            ],
+            "down": [
+                13,
+                6
+            ],
+            "side": [
+                12,
+                6
+            ]
+        }
+    },
+    {
+        "id": 50,
+        "name": "TORCH",
+        "width": 0.125,
+        "height": 0.625,
+        "passable": 1,
+        "transparent": true,
+        "style": "torch",
+        "sound": "madcraft:block.wood",
+        "material": {
+            "id": "wood"
+        },
+        "mining_time": 0,
+        "light_power": {
+            "r": 253,
+            "g": 241,
+            "b": 131,
+            "a": 224
+        },
+        "texture": {
+            "up": [
+                0,
+                6
+            ],
+            "down": [
+                0,
+                7
+            ],
+            "side": [
+                0,
+                5
+            ]
+        },
+        "tags": [
+            "no_set_on_top"
+        ],
+        "can_rotate": true
+    },
+    {
+        "id": 54,
+        "name": "CHEST",
+        "width": 0.875,
+        "height": 0.875,
+        "is_entity": true,
+        "transparent": true,
+        "sound": "madcraft:block.chest",
+        "material": {
+            "id": "wood"
+        },
+        "texture": {
+            "up": [
+                17,
+                6
+            ],
+            "down": [
+                17,
+                6
+            ],
+            "north": [
+                19,
+                6
+            ],
+            "side": [
+                18,
+                6
+            ]
+        },
+        "can_rotate": true
+    },
+    {
+        "id": 61,
+        "name": "FURNACE",
+        "sound": "madcraft:block.stone",
+        "material": {
+            "id": "stone"
+        },
+        "texture": {
+            "up": [
+                14,
+                3
+            ],
+            "down": [
+                14,
+                3
+            ],
+            "north": [
+                12,
+                2
+            ],
+            "side": [
+                13,
+                2
+            ]
+        },
+        "can_rotate": true
+    },
+    {
+        "id": 62,
+        "name": "BURNING_FURNACE",
+        "sound": "madcraft:block.stone",
+        "material": {
+            "id": "stone"
+        },
+        "texture": {
+            "up": [
+                14,
+                3
+            ],
+            "down": [
+                14,
+                3
+            ],
+            "north": [
+                13,
+                3
+            ],
+            "side": [
+                13,
+                2
+            ]
+        },
+        "light_power": {
+            "r": 253,
+            "g": 241,
+            "b": 131,
+            "a": 224
+        },
+        "can_rotate": true,
+        "spawnable": false
+    },
+    {
+        "id": 65,
+        "name": "LADDER",
+        "width": 0.0625,
+        "align": [
+            "back"
+        ],
+        "style": "ladder",
+        "inventory_style": "extruder",
+        "transparent": true,
+        "passable": 0.25,
+        "sound": "madcraft:block.wood",
+        "material": {
+            "id": "wood"
+        },
+        "texture": {
+            "south": [
+                3,
+                5
+            ],
+            "side": [
+                3,
+                5
+            ]
+        },
+        "tags": [
+            "ladder"
+        ],
+        "can_rotate": true
+    },
+    {
+        "id": 81,
+        "name": "CACTUS",
+        "planting": false,
+        "width": 0.875,
+        "transparent": true,
+        "sound": "madcraft:block.cloth",
+        "material": {
+            "id": "plant"
+        },
+        "texture": {
+            "up": [
+                5,
+                4
+            ],
+            "down": [
+                7,
+                4
+            ],
+            "side": [
+                6,
+                4
+            ]
+        }
+    },
+    {
+        "id": 84,
+        "name": "JUKEBOX",
+        "material": {
+            "id": "wood"
+        },
+        "texture": {
+            "up": [
+                11,
+                4
+            ],
+            "side": [
+                10,
+                4
+            ]
+        }
+    },
+    {
+        "id": 462,
+        "name": "BIRCH_TRAPDOOR",
+        "transparent": true,
+        "style": "trapdoor",
+        "sound": "madcraft:block.wooden_trapdoor",
+        "material": {
+            "id": "wood"
+        },
+        "tags": [
+            "no_drop_ao",
+            "trapdoor"
+        ],
+        "texture": {
+            "up": [
+                20,
+                20
+            ],
+            "down": [
+                20,
+                20
+            ],
+            "west": [
+                20,
+                21
+            ],
+            "east": [
+                20,
+                21
+            ],
+            "side": [
+                20,
+                22
+            ]
+        },
+        "extra_data": {
+            "opened": false,
+            "point": {"x":0, "y":0, "z":0}
+        },
+        "can_rotate": true
+    },
+    {
+        "id": 463,
+        "name": "OAK_TRAPDOOR",
+        "transparent": true,
+        "style": "trapdoor",
+        "sound": "madcraft:block.wooden_trapdoor",
+        "material": {
+            "id": "wood"
+        },
+        "tags": [
+            "no_drop_ao",
+            "trapdoor"
+        ],
+        "texture": {
+            "up": [
+                21,
+                20
+            ],
+            "down": [
+                21,
+                20
+            ],
+            "west": [
+                21,
+                21
+            ],
+            "east": [
+                21,
+                21
+            ],
+            "side": [
+                21,
+                22
+            ]
+        },
+        "extra_data": {
+            "opened": false,
+            "point": {"x":0, "y":0, "z":0}
+        },
+        "can_rotate": true
+    },
+    {
+        "id": 464,
+        "name": "ACACIA_TRAPDOOR",
+        "transparent": true,
+        "style": "trapdoor",
+        "sound": "madcraft:block.wooden_trapdoor",
+        "material": {
+            "id": "wood"
+        },
+        "tags": [
+            "no_drop_ao",
+            "trapdoor"
+        ],
+        "texture": {
+            "up": [
+                22,
+                20
+            ],
+            "down": [
+                22,
+                20
+            ],
+            "west": [
+                22,
+                21
+            ],
+            "east": [
+                22,
+                21
+            ],
+            "side": [
+                22,
+                22
+            ]
+        },
+        "extra_data": {
+            "opened": false,
+            "point": {"x":0, "y":0, "z":0}
+        },
+        "can_rotate": true
+    },
+    {
+        "id": 465,
+        "name": "SPRUCE_TRAPDOOR",
+        "transparent": true,
+        "style": "trapdoor",
+        "sound": "madcraft:block.wooden_trapdoor",
+        "material": {
+            "id": "wood"
+        },
+        "tags": [
+            "no_drop_ao",
+            "trapdoor"
+        ],
+        "texture": {
+            "up": [
+                23,
+                20
+            ],
+            "down": [
+                23,
+                20
+            ],
+            "west": [
+                23,
+                21
+            ],
+            "east": [
+                23,
+                21
+            ],
+            "side": [
+                23,
+                22
+            ]
+        },
+        "extra_data": {
+            "opened": false,
+            "point": {"x":0, "y":0, "z":0}
+        },
+        "can_rotate": true
+    },
+    {
+        "id": 532,
+        "name": "DARK_OAK_TRAPDOOR",
+        "transparent": true,
+        "style": "trapdoor",
+        "sound": "madcraft:block.wooden_trapdoor",
+        "material": {
+            "id": "wood"
+        },
+        "tags": [
+            "no_drop_ao",
+            "trapdoor"
+        ],
+        "texture": {
+            "up": [
+                24,
+                20
+            ],
+            "down": [
+                24,
+                20
+            ],
+            "west": [
+                24,
+                21
+            ],
+            "east": [
+                24,
+                21
+            ],
+            "side": [
+                24,
+                22
+            ]
+        },
+        "extra_data": {
+            "opened": false,
+            "point": {"x":0, "y":0, "z":0}
+        },
+        "can_rotate": true
+    },
+    {
+        "id": 533,
+        "name": "JUNGLE_TRAPDOOR",
+        "transparent": true,
+        "style": "trapdoor",
+        "sound": "madcraft:block.wooden_trapdoor",
+        "material": {
+            "id": "wood"
+        },
+        "tags": [
+            "no_drop_ao",
+            "trapdoor"
+        ],
+        "texture": {
+            "up": [
+                25,
+                20
+            ],
+            "down": [
+                25,
+                20
+            ],
+            "west": [
+                25,
+                21
+            ],
+            "east": [
+                25,
+                21
+            ],
+            "side": [
+                25,
+                22
+            ]
+        },
+        "extra_data": {
+            "opened": false,
+            "point": {"x":0, "y":0, "z":0}
+        },
+        "can_rotate": true
+    },
+    {
+        "id": 86,
+        "name": "PUMPKIN",
+        "planting": false,
+        "material": {
+            "id": "plant"
+        },
+        "texture": {
+            "up": [
+                6,
+                6
+            ],
+            "down": [
+                6,
+                6
+            ],
+            "side": [
+                6,
+                7
+            ]
+        },
+        "can_rotate": true
+    },
+    {
+        "id": 91,
+        "name": "LIT_PUMPKIN",
+        "planting": false,
+        "material": {
+            "id": "plant"
+        },
+        "texture": {
+            "up": [
+                6,
+                6
+            ],
+            "down": [
+                6,
+                6
+            ],
+            "north": [
+                7,
+                7
+            ],
+            "side": [
+                6,
+                7
+            ]
+        },
+        "can_rotate": true
+    },
+    {
+        "id": 110,
+        "name": "MYCELIUM",
+        "planting": false,
+        "material": {
+            "id": "plant"
+        },
+        "texture": {
+            "up": [
+                14,
+                4
+            ],
+            "down": [
+                2,
+                0
+            ],
+            "side": [
+                13,
+                4
+            ]
+        }
+    },
+    {
+        "id": 120,
+        "name": "END_PORTAL_FRAME",
+        "material": {
+            "id": "stone"
+        },
+        "height": 0.8125,
+        "texture": {
+            "up": [
+                14,
+                9
+            ],
+            "down": [
+                15,
+                10
+            ],
+            "side": [
+                15,
+                9
+            ]
+        },
+        "transparent": true
+    },
+    {
+        "id": 158,
+        "name": "DROPPER",
+        "material": {
+            "id": "stone"
+        },
+        "texture": {
+            "up": [14, 3],
+            "down": [14, 3],
+            "north": [15, 2],
+            "side": [13, 2]
+        },
+        "can_rotate": true
+    },
+    {
+        "id": 521,
+        "name": "SPAWN_EGG_CHICKEN",
+        "style": "extruder",
+        "material": {
+            "id": "bone"
+        },
+        "spawn_egg": {
+            "type": "chicken",
+            "skin": "base"
+        },
+        "texture": {
+            "id": "egg",
+            "side": [3, 0]
+        }
+    },
+    {
+        "id": 522,
+        "name": "SPAWN_EGG_CREEPER",
+        "style": "extruder",
+        "material": {
+            "id": "bone"
+        },
+        "spawn_egg": {
+            "type": "creeper",
+            "skin": "base"
+        },
+        "texture": {
+            "id": "egg",
+            "side": [5, 0]
+        }
+    },
+    {
+        "id": 523,
+        "name": "SPAWN_EGG_PIG",
+        "style": "extruder",
+        "material": {
+            "id": "bone"
+        },
+        "spawn_egg": {
+            "type": "pig",
+            "skin": "base"
+        },
+        "texture": {
+            "id": "egg",
+            "side": [3, 1]
+        }
+    },
+    {
+        "id": 524,
+        "name": "SPAWN_EGG_HORSE",
+        "style": "extruder",
+        "material": {
+            "id": "bone"
+        },
+        "spawn_egg": {
+            "type": "horse",
+            "skin": "creamy"
+        },
+        "texture": {
+            "id": "egg",
+            "side": [2, 2]
+        }
+    },
+    {
+        "id": 525,
+        "name": "SPAWN_EGG_DONKEY",
+        "style": "extruder",
+        "material": {
+            "id": "bone"
+        },
+        "spawn_egg": {
+            "type": "horse",
+            "skin": "base"
+        },
+        "texture": {
+            "id": "egg",
+            "side": [4, 2]
+        }
+    },
+    {
+        "id": 541,
+        "name": "BUCKET_EMPTY",
+        "style": "extruder",
+        "max_in_stack": 1,
+        "item": {"name": "bucket"},
+        "material": {
+            "id": "iron"
+        },
+        "texture": {
+            "id": "item",
+            "side": [0, 0]
+        }
+    },
+    {
+        "id": 542,
+        "name": "BUCKET_LAVA",
+        "style": "extruder",
+        "max_in_stack": 1,
+        "item": {"name": "bucket", "emit_on_set": "FLOWING_LAVA"},
+        "material": {
+            "id": "iron"
+        },
+        "texture": {
+            "id": "item",
+            "side": [1, 0]
+        }
+    },
+    {
+        "id": 543,
+        "name": "BUCKET_WATER",
+        "style": "extruder",
+        "max_in_stack": 1,
+        "item": {"name": "bucket", "emit_on_set": "FLOWING_WATER"},
+        "material": {
+            "id": "iron"
+        },
+        "texture": {
+            "id": "item",
+            "side": [3, 0]
+        }
+    },
+    {
+        "id": 544,
+        "name": "BUCKET_POWDER_SNOW",
+        "style": "extruder",
+        "max_in_stack": 1,
+        "item": {"name": "bucket", "emit_on_set": "SNOW_BLOCK"},
+        "material": {
+            "id": "iron"
+        },
+        "texture": {
+            "id": "item",
+            "side": [4, 0]
+        }
+    },
+    {
+        "id": 545,
+        "name": "ANDESITE",
+        "sound": "madcraft:block.stone",
+        "material": {
+            "id": "stone"
+        },
+        "texture": {
+            "id": "stone",
+            "side": [0, 0]
+        }
+    },
+    {
+        "id": 546,
+        "name": "POLISHED_ANDESITE",
+        "sound": "madcraft:block.stone",
+        "material": {
+            "id": "stone"
+        },
+        "texture": {
+            "id": "stone",
+            "side": [0, 1]
+        }
+    },
+    {
+        "id": 547,
+        "name": "DIORITE",
+        "sound": "madcraft:block.stone",
+        "material": {
+            "id": "stone"
+        },
+        "texture": {
+            "id": "stone",
+            "side": [1, 0]
+        }
+    },
+    {
+        "id": 548,
+        "name": "POLISHED_DIORITE",
+        "sound": "madcraft:block.stone",
+        "material": {
+            "id": "stone"
+        },
+        "texture": {
+            "id": "stone",
+            "side": [1, 1]
+        }
+    },
+    {
+        "id": 549,
+        "name": "GRANITE",
+        "sound": "madcraft:block.stone",
+        "material": {
+            "id": "stone"
+        },
+        "texture": {
+            "id": "stone",
+            "side": [2, 0]
+        }
+    },
+    {
+        "id": 202,
+        "name": "STILL_WATER",
+        "transparent": true,
+        "passable": 0.4,
+        "selflit": true,
+        "is_fluid": true,
+        "material": {
+            "id": "water"
+        },
+        "texture_animations": {
+            "up": 32,
+            "side": null
+        },
+        "texture": {
+            "id": "water_still",
+            "side": [0, 0]
+        },
+        "spawnable": false
+    },
+    {
+        "id": 200,
+        "name": "FLOWING_WATER",
+        "passable": 0.4,
+        "transparent": true,
+        "selflit": true,
+        "is_fluid": true,
+        "material": {
+            "id": "water"
+        },
+        "texture_animations": {
+            "up": 32,
+            "side": null
+        },
+        "texture": {
+            "id": "water_still",
+            "side": [0, 0]
+        },
+        "fluid": {
+            "max_power": 1,
+            "still_block_id": 202
+        },
+        "spawnable": false
+    },
+    {
+        "id": 171,
+        "name": "STILL_LAVA",
+        "transparent": true,
+        "passable": 0.25,
+        "selflit": true,
+        "gravity": true,
+        "is_fluid": true,
+        "material": {
+            "id": "lava"
+        },
+        "light_power": {
+            "r": 253,
+            "g": 200,
+            "b": 80,
+            "a": 255
+        },
+        "texture": {
+            "id": "lava_still",
+            "side": [0, 0]
+        },
+        "texture_animations": {
+            "up": 20,
+            "side": null
+        },
+        "spawnable": false
+    },
+    {
+        "id": 170,
+        "name": "FLOWING_LAVA",
+        "passable": 0.25,
+        "transparent": true,
+        "selflit": true,
+        "is_fluid": true,
+        "material": {
+            "id": "lava"
+        },
+        "fluid": {
+            "max_power": 1,
+            "still_block_id": 171
+        },
+        "light_power": {
+            "r": 253,
+            "g": 200,
+            "b": 80,
+            "a": 255
+        },
+        "texture": {
+            "id": "lava_still",
+            "side": [0, 0]
+        },
+        "texture_animations": {
+            "up": 20,
+            "side": null
+        },
+        "spawnable": false
+    },
+    {
+        "id": 540,
+        "name": "SEAGRASS",
+        "passable": 1,
+        "transparent": true,
+        "style": "planting",
+        "sound": "madcraft:block.grass",
+        "material": {
+            "id": "plant"
+        },
+        "texture": {
+            "id": "seagrass",
+            "side": [0, 0]
+        },
+        "texture_animations": {
+            "side": 18
+        },
+        "spawnable": false
+    },
+    {
+        "id": 550,
+        "name": "POLISHED_GRANITE",
+        "sound": "madcraft:block.stone",
+        "material": {
+            "id": "stone"
+        },
+        "texture": {
+            "id": "stone",
+            "side": [2, 1]
+        }
+    },
+    {
+        "id": 572,
+        "name": "TALL_GRASS",
+        "passable": 1,
+        "transparent": true,
+        "style": "planting",
+        "sound": "madcraft:block.grass",
+        "texture": [
+            8,
+            17
+        ],
+        "material": {
+            "id": "plant"
+        },
+        "tags": [
+            "no_drop",
+            "mask_biome"
+        ],
+        "next_part": {
+            "offset_pos": {"x": 0, "y": 1, "z": 0},
+            "id": 573
+        }
+    },
+    {
+        "id": 573,
+        "name": "TALL_GRASS_TOP",
+        "passable": 1,
+        "transparent": true,
+        "style": "planting",
+        "spawnable": false,
+        "sound": "madcraft:block.grass",
+        "texture": [
+            8,
+            16
+        ],
+        "material": {
+            "id": "plant"
+        },
+        "tags": [
+            "no_drop",
+            "mask_biome"
+        ],
+        "previous_part": {
+            "offset_pos": {"x": 0, "y": -1, "z": 0},
+            "id": 572
+        }
+    },
+    {
+        "id": 574,
+        "name": "BIRCH_DOOR",
+        "passable": 0,
+        "transparent": true,
+        "style": "door",
+        "sound": "madcraft:block.wooden_trapdoor",
+        "tags": [
+            "door",
+            "no_drop_ao"
+        ],
+        "texture": [
+            20,
+            15
+        ],
+        "material": {
+            "id": "wood"
+        },
+        "next_part": {
+            "offset_pos": {"x": 0, "y": 1, "z": 0},
+            "id": 575
+        },
+        "extra_data": {
+            "opened": false,
+            "left": false,
+            "point": {"x":0, "y":0, "z":0}
+        }
+    },
+    {
+        "id": 575,
+        "name": "BIRCH_DOOR_TOP",
+        "passable": 0,
+        "transparent": true,
+        "spawnable": false,
+        "style": "door",
+        "sound": "madcraft:block.wooden_trapdoor",
+        "tags": [
+            "door",
+            "no_drop_ao"
+        ],
+        "texture": [
+            20,
+            14
+        ],
+        "material": {
+            "id": "wood"
+        },
+        "previous_part": {
+            "offset_pos": {"x": 0, "y": -1, "z": 0},
+            "id": 574
+        },
+        "extra_data": {
+            "opened": false,
+            "point": {"x":0, "y":0, "z":0}
+        }
+    },
+    {
+        "id": 576,
+        "name": "OAK_DOOR",
+        "passable": 0,
+        "transparent": true,
+        "style": "door",
+        "sound": "madcraft:block.wooden_trapdoor",
+        "tags": [
+            "door",
+            "no_drop_ao"
+        ],
+        "texture": [
+            21,
+            15
+        ],
+        "material": {
+            "id": "wood"
+        },
+        "next_part": {
+            "offset_pos": {"x": 0, "y": 1, "z": 0},
+            "id": 577
+        },
+        "extra_data": {
+            "opened": false,
+            "left": false,
+            "point": {"x":0, "y":0, "z":0}
+        }
+    },
+    {
+        "id": 577,
+        "name": "OAK_DOOR_TOP",
+        "passable": 0,
+        "transparent": true,
+        "spawnable": false,
+        "style": "door",
+        "sound": "madcraft:block.wooden_trapdoor",
+        "tags": [
+            "door",
+            "no_drop_ao"
+        ],
+        "texture": [
+            21,
+            14
+        ],
+        "material": {
+            "id": "wood"
+        },
+        "previous_part": {
+            "offset_pos": {"x": 0, "y": -1, "z": 0},
+            "id": 576
+        },
+        "extra_data": {
+            "opened": false,
+            "point": {"x":0, "y":0, "z":0}
+        }
+    },
+    {
+        "id": 578,
+        "name": "ACACIA_DOOR",
+        "passable": 0,
+        "transparent": true,
+        "style": "door",
+        "sound": "madcraft:block.wooden_trapdoor",
+        "tags": [
+            "door",
+            "no_drop_ao"
+        ],
+        "texture": [
+            22,
+            15
+        ],
+        "material": {
+            "id": "wood"
+        },
+        "next_part": {
+            "offset_pos": {"x": 0, "y": 1, "z": 0},
+            "id": 579
+        },
+        "extra_data": {
+            "opened": false,
+            "left": false,
+            "point": {"x":0, "y":0, "z":0}
+        }
+    },
+    {
+        "id": 579,
+        "name": "ACACIA_DOOR_TOP",
+        "passable": 0,
+        "transparent": true,
+        "spawnable": false,
+        "style": "door",
+        "sound": "madcraft:block.wooden_trapdoor",
+        "tags": [
+            "door",
+            "no_drop_ao"
+        ],
+        "texture": [
+            22,
+            14
+        ],
+        "material": {
+            "id": "wood"
+        },
+        "previous_part": {
+            "offset_pos": {"x": 0, "y": -1, "z": 0},
+            "id": 578
+        },
+        "extra_data": {
+            "opened": false,
+            "point": {"x":0, "y":0, "z":0}
+        }
+    },
+    {
+        "id": 580,
+        "name": "SPRUCE_DOOR",
+        "passable": 0,
+        "transparent": true,
+        "style": "door",
+        "sound": "madcraft:block.wooden_trapdoor",
+        "tags": [
+            "door",
+            "no_drop_ao"
+        ],
+        "texture": [
+            23,
+            15
+        ],
+        "material": {
+            "id": "wood"
+        },
+        "next_part": {
+            "offset_pos": {"x": 0, "y": 1, "z": 0},
+            "id": 581
+        },
+        "extra_data": {
+            "opened": false,
+            "left": false,
+            "point": {"x":0, "y":0, "z":0}
+        }
+    },
+    {
+        "id": 581,
+        "name": "SPRUCE_DOOR_TOP",
+        "passable": 0,
+        "transparent": true,
+        "spawnable": false,
+        "style": "door",
+        "sound": "madcraft:block.wooden_trapdoor",
+        "tags": [
+            "door",
+            "no_drop_ao"
+        ],
+        "texture": [
+            23,
+            14
+        ],
+        "material": {
+            "id": "wood"
+        },
+        "previous_part": {
+            "offset_pos": {"x": 0, "y": -1, "z": 0},
+            "id": 580
+        },
+        "extra_data": {
+            "opened": false,
+            "point": {"x":0, "y":0, "z":0}
+        }
+    },
+    {
+        "id": 582,
+        "name": "DARK_OAK_DOOR",
+        "passable": 0,
+        "transparent": true,
+        "style": "door",
+        "sound": "madcraft:block.wooden_trapdoor",
+        "tags": [
+            "door",
+            "no_drop_ao"
+        ],
+        "texture": [
+            24,
+            15
+        ],
+        "material": {
+            "id": "wood"
+        },
+        "next_part": {
+            "offset_pos": {"x": 0, "y": 1, "z": 0},
+            "id": 583
+        },
+        "extra_data": {
+            "opened": false,
+            "left": false,
+            "point": {"x":0, "y":0, "z":0}
+        }
+    },
+    {
+        "id": 583,
+        "name": "DARK_OAK_DOOR_TOP",
+        "passable": 0,
+        "transparent": true,
+        "spawnable": false,
+        "style": "door",
+        "sound": "madcraft:block.wooden_trapdoor",
+        "tags": [
+            "door",
+            "no_drop_ao"
+        ],
+        "texture": [
+            24,
+            14
+        ],
+        "material": {
+            "id": "wood"
+        },
+        "previous_part": {
+            "offset_pos": {"x": 0, "y": -1, "z": 0},
+            "id": 582
+        },
+        "extra_data": {
+            "opened": false,
+            "point": {"x":0, "y":0, "z":0}
+        }
+    },
+    {
+        "id": 584,
+        "name": "JUNGLE_DOOR",
+        "passable": 0,
+        "transparent": true,
+        "style": "door",
+        "sound": "madcraft:block.wooden_trapdoor",
+        "tags": [
+            "door",
+            "no_drop_ao"
+        ],
+        "texture": [
+            25,
+            15
+        ],
+        "material": {
+            "id": "wood"
+        },
+        "next_part": {
+            "offset_pos": {"x": 0, "y": 1, "z": 0},
+            "id": 585
+        },
+        "extra_data": {
+            "opened": false,
+            "left": false,
+            "point": {"x":0, "y":0, "z":0}
+        }
+    },
+    {
+        "id": 585,
+        "name": "JUNGLE_DOOR_TOP",
+        "passable": 0,
+        "transparent": true,
+        "spawnable": false,
+        "style": "door",
+        "sound": "madcraft:block.wooden_trapdoor",
+        "tags": [
+            "door",
+            "no_drop_ao"
+        ],
+        "texture": [
+            25,
+            14
+        ],
+        "material": {
+            "id": "wood"
+        },
+        "previous_part": {
+            "offset_pos": {"x": 0, "y": -1, "z": 0},
+            "id": 584
+        },
+        "extra_data": {
+            "opened": false,
+            "point": {"x":0, "y":0, "z":0}
+        }
+    },
+    {
+        "id": 586,
+        "name": "WARPED_DOOR",
+        "passable": 0,
+        "transparent": true,
+        "style": "door",
+        "sound": "madcraft:block.wooden_trapdoor",
+        "tags": [
+            "door",
+            "no_drop_ao"
+        ],
+        "texture": [
+            26,
+            15
+        ],
+        "material": {
+            "id": "wood"
+        },
+        "next_part": {
+            "offset_pos": {"x": 0, "y": 1, "z": 0},
+            "id": 587
+        },
+        "extra_data": {
+            "opened": false,
+            "left": false,
+            "point": {"x":0, "y":0, "z":0}
+        }
+    },
+    {
+        "id": 587,
+        "name": "WARPED_DOOR_TOP",
+        "passable": 0,
+        "transparent": true,
+        "spawnable": false,
+        "style": "door",
+        "sound": "madcraft:block.wooden_trapdoor",
+        "tags": [
+            "door",
+            "no_drop_ao"
+        ],
+        "texture": [
+            26,
+            14
+        ],
+        "material": {
+            "id": "wood"
+        },
+        "previous_part": {
+            "offset_pos": {"x": 0, "y": -1, "z": 0},
+            "id": 586
+        },
+        "extra_data": {
+            "opened": false,
+            "point": {"x":0, "y":0, "z":0}
+        }
+    },
+    {
+        "id": 588,
+        "name": "CRIMSON_DOOR",
+        "passable": 0,
+        "transparent": true,
+        "style": "door",
+        "sound": "madcraft:block.wooden_trapdoor",
+        "tags": [
+            "door",
+            "no_drop_ao"
+        ],
+        "texture": [
+            27,
+            15
+        ],
+        "material": {
+            "id": "wood"
+        },
+        "next_part": {
+            "offset_pos": {"x": 0, "y": 1, "z": 0},
+            "id": 589
+        },
+        "extra_data": {
+            "opened": false,
+            "left": false,
+            "point": {"x":0, "y":0, "z":0}
+        }
+    },
+    {
+        "id": 589,
+        "name": "CRIMSON_DOOR_TOP",
+        "passable": 0,
+        "transparent": true,
+        "spawnable": false,
+        "style": "door",
+        "sound": "madcraft:block.wooden_trapdoor",
+        "tags": [
+            "door",
+            "no_drop_ao"
+        ],
+        "texture": [
+            27,
+            14
+        ],
+        "material": {
+            "id": "wood"
+        },
+        "previous_part": {
+            "offset_pos": {"x": 0, "y": -1, "z": 0},
+            "id": 588
+        },
+        "extra_data": {
+            "opened": false,
+            "point": {"x":0, "y":0, "z":0}
+        }
+    },
+    {
+        "id": 590,
+        "name": "IRON_DOOR",
+        "passable": 0,
+        "transparent": true,
+        "style": "door",
+        "sound": "madcraft:block.wooden_trapdoor",
+        "tags": [
+            "door",
+            "no_drop_ao"
+        ],
+        "texture": [
+            28,
+            15
+        ],
+        "material": {
+            "id": "wood"
+        },
+        "next_part": {
+            "offset_pos": {"x": 0, "y": 1, "z": 0},
+            "id": 591
+        },
+        "extra_data": {
+            "opened": false,
+            "left": false,
+            "point": {"x":0, "y":0, "z":0}
+        }
+    },
+    {
+        "id": 591,
+        "name": "IRON_DOOR_TOP",
+        "passable": 0,
+        "transparent": true,
+        "spawnable": false,
+        "style": "door",
+        "sound": "madcraft:block.wooden_trapdoor",
+        "tags": [
+            "door",
+            "no_drop_ao"
+        ],
+        "texture": [
+            28,
+            14
+        ],
+        "material": {
+            "id": "iron"
+        },
+        "previous_part": {
+            "offset_pos": {"x": 0, "y": -1, "z": 0},
+            "id": 590
+        },
+        "extra_data": {
+            "opened": false,
+            "point": {"x":0, "y":0, "z":0}
+        }
+    },
+    {
+        "id": 592,
+        "name": "DRIPSTONE_BLOCK",
+        "sound": "madcraft:block.stone",
+        "material": {
+            "id": "cobblestone"
+        },
+        "texture": [31, 0]
+    },
+    {
+        "id": 593,
+        "name": "DRIPSTONE",
+        "passable": 0,
+        "transparent": true,
+        "style": "planting",
+        "sound": "madcraft:block.stone",
+        "material": {
+            "id": "stone"
+        },
+        "tags": [
+            "place_only_to_ceil",
+            "no_set_on_top"
+        ],
+        "next_part": {
+            "offset_pos": {"x": 0, "y": -1, "z": 0},
+            "id": 594
+        },
+        "texture": [31, 1]
+    },
+    {
+        "id": 594,
+        "name": "DRIPSTONE2",
+        "passable": 0,
+        "transparent": true,
+        "style": "planting",
+        "spawnable": false,
+        "sound": "madcraft:block.stone",
+        "material": {
+            "id": "stone"
+        },
+        "next_part": {
+            "offset_pos": {"x": 0, "y": -1, "z": 0},
+            "id": 595
+        },
+        "tags": [
+            "no_set_on_top"
+        ],
+        "previous_part": {
+            "offset_pos": {"x": 0, "y": 1, "z": 0},
+            "id": 593
+        },
+        "texture": [31, 2]
+    },
+    {
+        "id": 595,
+        "name": "DRIPSTONE3",
+        "passable": 0,
+        "transparent": true,
+        "style": "planting",
+        "spawnable": false,
+        "sound": "madcraft:block.stone",
+        "material": {
+            "id": "stone"
+        },
+        "tags": [
+            "no_set_on_top"
+        ],
+        "previous_part": {
+            "offset_pos": {"x": 0, "y": 1, "z": 0},
+            "id": 594
+        },
+        "texture": [31, 3]
+    },
+    {
+        "id": 596,
+        "name": "AMETHYST",
+        "sound": "madcraft:block.amethyst",
+        "material": {
+            "id": "amethyst"
+        },
+        "texture": [30, 0]
+    },
+    {
+        "id": 597,
+        "name": "AMETHYST_CLUSTER",
+        "sound": "madcraft:block.amethyst",
+        "transparent": true,
+        "style": "planting",
+        "inventory_style": "extruder",
+        "material": {
+            "id": "amethyst"
+        },
+        "tags": [
+            "no_set_on_top",
+            "rotate_by_pos_n"
+        ],
+        "texture": [30, 1],
+        "light_power": {
+            "r": 255,
+            "g": 235,
+            "b": 35,
+            "a": 150
+        },
+        "can_rotate": true
+    },
+    {
+        "id": 600,
+        "name": "MOSS_BLOCK",
+        "sound": "madcraft:block.grass",
+        "material": {
+            "id": "cobblestone"
+        },
+        "texture": [29, 0]
+    },
+    {
+        "id": 601,
+        "name": "CAVE_VINE_PART1",
+        "passable": 1,
+        "transparent": true,
+        "spawnable": false,
+        "style": "planting",
+        "sound": "madcraft:block.cave_vine",
+        "material": {
+            "id": "plant"
+        },
+        "destroy_to_down": ["CAVE_VINE_PART1", "CAVE_VINE_PART2", "CAVE_VINE_PART3", "CAVE_VINE_PART4"],
+        "texture": [29, 1]
+    },
+    {
+        "id": 602,
+        "name": "CAVE_VINE_PART2",
+        "passable": 1,
+        "transparent": true,
+        "spawnable": false,
+        "style": "planting",
+        "drop_item": {"name": "CAVE_VINE_BERRY", "count": 1},
+        "sound": "madcraft:block.cave_vine",
+        "material": {
+            "id": "plant"
+        },
+        "light_power": {
+            "r": 255,
+            "g": 235,
+            "b": 35,
+            "a": 200
+        },
+        "destroy_to_down": ["CAVE_VINE_PART1", "CAVE_VINE_PART2", "CAVE_VINE_PART3", "CAVE_VINE_PART4"],
+        "texture": [29, 2]
+    },
+    {
+        "id": 603,
+        "name": "CAVE_VINE_PART3",
+        "passable": 1,
+        "transparent": true,
+        "spawnable": false,
+        "style": "planting",
+        "sound": "madcraft:block.cave_vine",
+        "material": {
+            "id": "plant"
+        },
+        "destroy_to_down": ["CAVE_VINE_PART1", "CAVE_VINE_PART2", "CAVE_VINE_PART3", "CAVE_VINE_PART4"],
+        "texture": [29, 3]
+    },
+    {
+        "id": 604,
+        "name": "CAVE_VINE_PART4",
+        "passable": 1,
+        "transparent": true,
+        "spawnable": false,
+        "style": "planting",
+        "drop_item": {"name": "CAVE_VINE_BERRY", "count": 1},
+        "sound": "madcraft:block.cave_vine",
+        "material": {
+            "id": "plant"
+        },
+        "light_power": {
+            "r": 255,
+            "g": 235,
+            "b": 35,
+            "a": 164
+        },
+        "destroy_to_down": ["CAVE_VINE_PART1", "CAVE_VINE_PART2", "CAVE_VINE_PART3", "CAVE_VINE_PART4"],
+        "texture": [29, 4]
+    },
+    {
+        "id": 605,
+        "name": "CAVE_VINE_BERRY",
+        "transparent": true,
+        "style": "planting",
+        "sound": "madcraft:block.cave_vine",
+        "material": {
+            "id": "plant"
+        },
+        "light_power": {
+            "r": 255,
+            "g": 235,
+            "b": 35,
+            "a": 164
+        },
+        "texture": [29, 5]
+    },
+    {
+        "id": 606,
+        "name": "WOODEN_SWORD",
+        "transparent": true,
+        "max_in_stack": 1,
+        "style": "extruder",
+        "item": {"name": "instrument", "instrument_id": "sword"},
+        "diagonal": true,
+        "material": {
+            "id": "wood"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [0, 1]
+        },
+        "light": null
+    },
+    {
+        "id": 607,
+        "name": "STONE_SWORD",
+        "transparent": true,
+        "max_in_stack": 1,
+        "style": "extruder",
+        "item": {"name": "instrument", "instrument_id": "sword"},
+        "diagonal": true,
+        "power": 2,
+        "material": {
+            "id": "stone"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [1, 1]
+        },
+        "light": null
+    },
+    {
+        "id": 608,
+        "name": "IRON_SWORD",
+        "transparent": true,
+        "max_in_stack": 1,
+        "style": "extruder",
+        "item": {"name": "instrument", "instrument_id": "sword"},
+        "diagonal": true,
+        "power": 3,
+        "material": {
+            "id": "iron"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [2, 1]
+        },
+        "light": null
+    },
+    {
+        "id": 609,
+        "name": "GOLD_SWORD",
+        "transparent": true,
+        "max_in_stack": 1,
+        "style": "extruder",
+        "item": {"name": "instrument", "instrument_id": "sword"},
+        "diagonal": true,
+        "power": 2,
+        "material": {
+            "id": "gold"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [3, 1]
+        },
+        "light": null
+    },
+    {
+        "id": 610,
+        "name": "DIAMOND_SWORD",
+        "transparent": true,
+        "max_in_stack": 1,
+        "style": "extruder",
+        "item": {"name": "instrument", "instrument_id": "sword"},
+        "diagonal": true,
+        "power": 5,
+        "material": {
+            "id": "diamond"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [4, 1]
+        },
+        "light": null
+    },
+    {
+        "id": 611,
+        "name": "NETHERITE_SWORD",
+        "transparent": true,
+        "max_in_stack": 1,
+        "style": "extruder",
+        "item": {"name": "instrument", "instrument_id": "sword"},
+        "diagonal": true,
+        "power": 10,
+        "material": {
+            "id": "netherite"
+        },
+        "texture": {
+            "id": "tool",
+            "side": [5, 1]
+        },
+        "light": null
+    },
+    {
+        "id": 612,
+        "name": "CARROT",
+        "item": {"name": "food"},
+        "style": "extruder",
+        "material": {
+            "id": "food"
+        },
+        "texture": [
+            1,
+            31
+        ]
+    },
+    {
+        "id": 613,
+        "name": "APPLE",
+        "item": {"name": "food"},
+        "style": "extruder",
+        "material": {
+            "id": "food"
+        },
+        "texture": [
+            2,
+            31
+        ]
+    },
+    {
+        "id": 614,
+        "name": "CHICKEN_RAW",
+        "item": {"name": "food"},
+        "style": "extruder",
+        "material": {
+            "id": "food"
+        },
+        "texture": [
+            3,
+            31
+        ]
+    },
+    {
+        "id": 615,
+        "name": "STONE_BRICK_STAIRS",
+        "style": "stairs",
+        "sound": "madcraft:block.stone",
+        "tags": [
+            "stairs"
+        ],
+        "material": {
+            "id": "stone"
+        },
+        "texture": [6, 3],
+        "can_rotate": true
+    },
+    {
+        "id": 616,
+        "name": "FRAME",
+        "spawnable": false,
+        "inventory_style": "extruder",
+        "sound": "madcraft:block.wood",
+        "material": {
+            "id": "wood"
+        },
+        "tags": [
+            "no_drop_ao"
+        ],
+        "texture": {
+            "id": "default",
+            "side": [19, 10]
+        }
+    },
+    {
+        "id": 617,
+        "name": "CHAIN",
+        "style": "sign",
+        "transparent": true,
+        "passable": 0,
+        "sound": "madcraft:block.stone",
+        "material": {
+            "id": "iron"
+        },
+        "tags": [
+            "no_drop_ao",
+            "rotate_by_pos_n"
+        ],
+        "texture": [28, 0],
+        "can_rotate": true
+    },
+    {
+        "id": 618,
+        "name": "PAINTING",
+        "style": "extruder",
+        "spawnable": false,
+        "item": {"name": "painting"},
+        "material": {
+            "id": "wood"
+        },
+        "texture": {
+            "id": "default",
+            "side": [7, 2]
+        }
+    },
+    {
+        "id": 619,
+        "name": "PAINTING_FRAME",
+        "max_in_stack": 1,
+        "spawnable": false,
+        "material": {"id": "wood"},
+        "texture": {
+            "id": "paintintg_frame",
+            "side": [29.5, 29.5]
+        }
+    },
+
+
+
+
+    {
+        "id": 139,
+        "name": "COBBLESTONE_WALL",
+        "sound": "madcraft:block.stone",
+        "style": "wall",
+        "transparent": true,
+        "material": {
+            "id": "cobblestone"
+        },
+        "texture": [
+            0,
+            1
+        ]
+    },
+    {
+        "id": 620,
+        "name": "MOSS_STONE_WALL",
+        "sound": "madcraft:block.stone",
+        "style": "wall",
+        "transparent": true,
+        "material": {
+            "id": "stone"
+        },
+        "texture": [
+            4,
+            2
+        ]
+    },
+    {
+        "id": 621,
+        "name": "ANDESITE_WALL",
+        "sound": "madcraft:block.stone",
+        "style": "wall",
+        "transparent": true,
+        "material": {
+            "id": "stone"
+        },
+        "texture": {
+            "id": "stone",
+            "side": [0, 0]
+        }
+    },
+    {
+        "id": 622,
+        "name": "DIORITE_WALL",
+        "sound": "madcraft:block.stone",
+        "style": "wall",
+        "transparent": true,
+        "material": {
+            "id": "stone"
+        },
+        "texture": {
+            "id": "stone",
+            "side": [1, 0]
+        }
+    },
+    {
+        "id": 623,
+        "name": "GRANITE_WALL",
+        "sound": "madcraft:block.stone",
+        "style": "wall",
+        "transparent": true,
+        "material": {
+            "id": "stone"
+        },
+        "texture": {
+            "id": "stone",
+            "side": [2, 0]
+        }
+    },
+    {
+        "id": 624,
+        "name": "SANDSTONE_WALL",
+        "sound": "madcraft:block.gravel",
+        "style": "wall",
+        "transparent": true,
+        "material": {
+            "id": "stone"
+        },
+        "texture": [
+            0,
+            12
+        ]
+    },
+    {
+        "id": 625,
+        "name": "BRICK_WALL",
+        "sound": "madcraft:block.stone",
+        "style": "wall",
+        "transparent": true,
+        "material": {
+            "id": "stone"
+        },
+        "texture": [
+            7,
+            0
+        ]
+    },
+    {
+        "id": 626,
+        "name": "IRON_BARS",
+        "transparent": true,
+        "style": "pane",
+        "inventory_style": "extruder",
+        "sound": "madcraft:block.stone",
+        "material": {
+            "id": "stone"
+        },
+        "texture": [
+            5,
+            5
+        ],
+        "can_rotate": true
+    }
+]
